@@ -40,14 +40,6 @@ class Solution5 {
 				i++;
 			}
 		}
-
-	}
-	
-	public int shiftArray(int index, int[] arr) {
-		for (int i = arr.length - 1; i > index; i--) {
-			arr[i] = arr[i-1];
-		}
-		return 0;
 	}
 
 }
