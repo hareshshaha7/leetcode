@@ -71,8 +71,8 @@ class Solution10 {
 				return false;
 		}
 		return true;
-	}
-	*/	
+		 */
+	}	
 		
 }
 
