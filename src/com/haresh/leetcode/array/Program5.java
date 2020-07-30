@@ -1,7 +1,5 @@
 package com.haresh.leetcode.array;
 
-import java.util.Arrays;
-
 /*
 	Given a fixed length array arr of integers, duplicate each occurrence of zero, shifting the remaining elements to the right.
 
@@ -31,11 +29,11 @@ import java.util.Arrays;
 class Solution5 {
 
 	public void duplicateZeros(int[] arr) {
-		
+
 		for (int i = 0; i < arr.length - 1; i++) {
 			if (arr[i] == 0) {
 				for (int j = arr.length - 1; j > i; j--) {
-					arr[j] = arr[j-1];
+					arr[j] = arr[j - 1];
 				}
 				i++;
 			}

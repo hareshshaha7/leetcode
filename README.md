@@ -10,3 +10,4 @@ Learn competitive programming through [leetcode](https://leetcode.com/)
 <b>6th program:</b> Merge Sorted Array <br/>
 <b>6th program:</b> Remove Element <br/>
 <b>6th program:</b> Remove Duplicates from Sorted Array <br/>
+<b>6th program:</b> Check If N and Its Double Exist <br/>
