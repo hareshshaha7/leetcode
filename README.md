@@ -8,7 +8,8 @@ Learn competitive programming through [leetcode](https://leetcode.com/)
 <b>4th program:</b> Sorted Squares <br/>
 <b>5th program:</b> Duplicate Zeros <br/>
 <b>6th program:</b> Merge Sorted Array <br/>
-<b>6th program:</b> Remove Element <br/>
-<b>6th program:</b> Remove Duplicates from Sorted Array <br/>
-<b>6th program:</b> Check If N and Its Double Exist <br/>
-<b>6th program:</b> Valid Mountain Array <br/>
+<b>7th program:</b> Remove Element <br/>
+<b>8th program:</b> Remove Duplicates from Sorted Array <br/>
+<b>9th program:</b> Check If N and Its Double Exist <br/>
+<b>10th program:</b> Valid Mountain Array <br/>
+<b>11th program:</b> Replace Elements with Greatest Element on Right Side <br/>
