@@ -15,7 +15,7 @@ package com.haresh.leetcode.array;
  
  */
 
-class Solution {
+class Solution2 {
     public int findMaxConsecutiveOnes(int[] nums) {
     	int maxConsecutiveOnes = 0;
     	int consecutiveOnes = 0;
@@ -43,8 +43,8 @@ public class Program2 {
 	public static void main(String[] args) {
 		
 		int[] input = {1,1,0,1,1,1, 1, 1};
-		Solution solution = new Solution();
-		int result = solution.findMaxConsecutiveOnes(input);
+		Solution2 solution2 = new Solution2();
+		int result = solution2.findMaxConsecutiveOnes(input);
 		System.out.println(result);
 	}
 
