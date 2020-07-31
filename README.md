@@ -16,4 +16,5 @@ Learn competitive programming through [leetcode](https://leetcode.com/)
 <b>12th program:</b> Remove Duplicates from Sorted Array <br/>
 <b>13th program:</b> Move Zeroes <br/>
 <b>14th program:</b> Sort Array By Parity <br/>
-<b>13th program:</b> Squares of a Sorted Array <br/>
+<b>15th program:</b> Squares of a Sorted Array <br/>
+<b>16th program:</b> Height Checker <br/>
