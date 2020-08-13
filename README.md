@@ -26,3 +26,4 @@ Learn competitive programming through [leetcode](https://leetcode.com/)
 <b> AMAZON PREP </b>
 <br/>
 <b> Program 01: </b> Top K Frequent Words
+<b> Program 02: </b> Top K Frequent Elements
