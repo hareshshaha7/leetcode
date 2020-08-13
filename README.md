@@ -2,6 +2,8 @@
 
 Learn competitive programming through [leetcode](https://leetcode.com/)
 
+<b> ARRAY </b>
+<br/>
 <b>1st program:</b> Array of DVDs <br/>
 <b>2nd program:</b> Find Max Consecutive Ones <br/>
 <b>3rd program:</b> Even number of digits <br/>
@@ -18,3 +20,9 @@ Learn competitive programming through [leetcode](https://leetcode.com/)
 <b>14th program:</b> Sort Array By Parity <br/>
 <b>15th program:</b> Squares of a Sorted Array <br/>
 <b>16th program:</b> Height Checker <br/>
+<b>17th program:</b> Third Maximum Number <br/>
+
+<br/>
+<b> AMAZON PREP </b>
+<br/>
+<b> Program 01: </b> Top K Frequent Words
