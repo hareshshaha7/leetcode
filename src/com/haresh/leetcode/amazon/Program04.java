@@ -63,10 +63,11 @@ public class Program04 {
 		int[][] adjacentSides = { { -1, 0 }, { 1, 0 }, { 0, -1 }, { 0, 1 } };
 
 		// bfs starting from initially rotten oranges
-		while (!rottenOranges.isEmpty()) {
+		while (!rottenOranges.isEmpty() && freshOranges != 0) {
 			minutes++;
+			int size = rottenOranges.size();
 
-			for (int i = 0; i < rottenOranges.size(); i++) {
+			for (int i = 0; i < size; i++) {
 				int[] rottenOrange = rottenOranges.poll();
 
 				for (int[] adjacentSide : adjacentSides) {
@@ -93,11 +94,11 @@ public class Program04 {
 			}
 		}
 
-		return freshOranges == 0 ? minutes - 1 : -1;
+		return freshOranges == 0 ? minutes : -1;
 	}
 
 	public static void main(String[] args) {
-		int[][] input = { { 2, 1, 1 }, { 1, 1, 0 }, { 0, 1, 1 } };
+		int[][] input = { { 2, 1, 2, 1} };
 		int result = orangesRotting(input);
 		System.out.println(result);
 	}
