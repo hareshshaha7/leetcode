@@ -52,9 +52,9 @@ package com.haresh.leetcode.amazon;
 public class Program06 {
 	
 	public static void main(String[] args) {
-		int arr[] = { 4, 5, 6, 7, 8, 9, 1, 2, 3 };
+		int arr[] = { 2, 2, 2, 2, 2, 2, 2, 2, 0, 2 };
 		int n = arr.length;
-		int key = 1;
+		int key = 0;
 		
 		int i = sortedPivotedArray(arr, 0, n - 1, key);
 		if (i != -1)
@@ -78,7 +78,7 @@ public class Program06 {
 			return r;
 		
 		// If arr[l...mid] first sub-array is sorted 
-		if (arr[m] > arr[l]) {
+		if (arr[m] >= arr[l]) {
 			
 			// As this sub-array is sorted, we can quickly check if key lies in half or other half
 			if (key < arr[m] && key > arr[l])
