@@ -2,9 +2,10 @@ package com.haresh.leetcode.amazon;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
 
 /*
+	Search Suggestions System
+	
 	Given an array of strings products and a string searchWord. 
 	We want to design a system that suggests at most three product names from products after each character of searchWord is typed. 
 	Suggested products should have common prefix with the searchWord. 

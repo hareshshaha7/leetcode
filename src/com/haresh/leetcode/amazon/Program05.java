@@ -56,7 +56,7 @@ public class Program05 {
 		if (humans == 0)
 			return 0;
 
-		while (zombies.isEmpty() || humans != 0) {
+		while (!zombies.isEmpty() && humans != 0) {
 			hours++;
 			int size = zombies.size();
 
