@@ -37,3 +37,4 @@ Learn competitive programming through [leetcode](https://leetcode.com/)
 <br/> <b> Program 08: </b> Given a string s and an int k, return all unique substrings of s of size k with k distinct characters.
 <br/> <b> Program 09: </b> Search Suggestions System
 <br/> <b> Program 10: </b> Reorder Data in Log Files
+<br/> <b> Program 11: </b> Partition Labels
