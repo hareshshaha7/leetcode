@@ -32,7 +32,7 @@ public class Program12 {
 
 		tree.display(tree.root);
 
-		int distance = tree.findSortestDistanceInTreeNodes(tree.root, 5, 35);
+		int distance = tree.findShortestDistanceInTreeNodes(tree.root, 5, 35);
 		System.out.println(distance);
 	}
 
@@ -73,7 +73,7 @@ public class Program12 {
 		}
 
 		// This function make sure that a is smaller than b before making a call
-		public int findSortestDistanceInTreeNodes(TreeNode root, int a, int b) {
+		public int findShortestDistanceInTreeNodes(TreeNode root, int a, int b) {
 			if (a > b) {
 				int temp = a;
 				a = b;
