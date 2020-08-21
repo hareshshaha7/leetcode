@@ -1,7 +1,6 @@
 package com.haresh.leetcode.amazon;
 
 import java.util.ArrayDeque;
-import java.util.LinkedList;
 import java.util.Queue;
 
 /*
@@ -31,7 +30,10 @@ import java.util.Queue;
 class Program15 {
 
 	public static void main(String[] args) {
-		char[][] grid = { { 'O', 'O', 'O', 'O' }, { 'D', 'O', 'D', 'O' }, { 'O', 'O', 'O', 'O' },
+		char[][] grid = { 
+				{ 'O', 'O', 'O', 'O' }, 
+				{ 'D', 'O', 'D', 'O' }, 
+				{ 'O', 'O', 'O', 'O' },
 				{ 'X', 'D', 'D', 'O' } };
 		int steps = minSteps(grid);
 		System.out.println(steps);
