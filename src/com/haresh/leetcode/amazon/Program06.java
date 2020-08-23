@@ -56,54 +56,55 @@ package com.haresh.leetcode.amazon;
 public class Program06 {
 	public static void main(String[] args) {
 		String[][] codeList1 = { { "apple", "apple" }, { "banana", "anything", "banana" } };
-		String[] shoppingCart1 = {"orange", "apple", "apple","orange", "banana", "orange", "banana"};
+		String[] shoppingCart1 = { "orange", "apple", "apple", "orange", "banana", "orange", "banana" };
 		System.out.println(checkCustomerWinner(codeList1, shoppingCart1));
-		
+
 		String[][] codeList2 = { { "apple", "apple" }, { "banana", "anything", "banana" } };
-		String[] shoppingCart2 = {"banana", "orange", "banana", "apple", "apple"};
+		String[] shoppingCart2 = { "banana", "orange", "banana", "apple", "apple" };
 		System.out.println(checkCustomerWinner(codeList2, shoppingCart2));
-		
+
 		String[][] codeList3 = { { "apple", "apple" }, { "banana", "anything", "banana" } };
-		String[] shoppingCart3 = {"apple", "banana", "apple", "banana", "orange", "banana"};
+		String[] shoppingCart3 = { "apple", "banana", "apple", "banana", "orange", "banana" };
 		System.out.println(checkCustomerWinner(codeList3, shoppingCart3));
-		
+
 		String[][] codeList4 = { { "apple", "apple" }, { "apple", "apple", "banana" } };
-		String[] shoppingCart4 = {"apple", "apple", "apple", "banana"};
+		String[] shoppingCart4 = { "apple", "apple", "apple", "banana" };
 		System.out.println(checkCustomerWinner(codeList4, shoppingCart4));
-		
+
 		String[][] codeList5 = { { "apple", "apple" }, { "banana", "anything", "banana" } };
-		String[] shoppingCart5 = {"orange", "apple", "apple", "banana", "orange", "banana"};
+		String[] shoppingCart5 = { "orange", "apple", "apple", "banana", "orange", "banana" };
 		System.out.println(checkCustomerWinner(codeList5, shoppingCart5));
-		
-		String[][] codeList6 = { { "apple", "apple" }, { "banana", "anything", "banana" }  };
-		String[] shoppingCart6 = {"apple", "apple", "orange", "orange", "banana", "apple", "banana", "banana"};
+
+		String[][] codeList6 = { { "apple", "apple" }, { "banana", "anything", "banana" } };
+		String[] shoppingCart6 = { "apple", "apple", "orange", "orange", "banana", "apple", "banana", "banana" };
 		System.out.println(checkCustomerWinner(codeList6, shoppingCart6));
-		
-		String[][] codeList7= { { "anything", "apple" }, { "banana", "anything", "banana" }  };
-		String[] shoppingCart7 = {"orange", "grapes", "apple", "orange", "orange", "banana", "apple", "banana", "banana"};
+
+		String[][] codeList7 = { { "anything", "apple" }, { "banana", "anything", "banana" } };
+		String[] shoppingCart7 = { "orange", "grapes", "apple", "orange", "orange", "banana", "apple", "banana",
+				"banana" };
 		System.out.println(checkCustomerWinner(codeList7, shoppingCart7));
 	}
 
 	private static int checkCustomerWinner(String[][] codeList, String[] shoppingCart) {
-		if(codeList == null || codeList.length == 0)
+		if (codeList == null || codeList.length == 0)
 			return 1;
-		if(shoppingCart == null || shoppingCart.length == 0)
+		if (shoppingCart == null || shoppingCart.length == 0)
 			return 0;
-		int i=0,j=0;
-		for(int k=0;k<shoppingCart.length;k++) {
-			if(codeList[i][j].equals(shoppingCart[k]) || codeList[i][j].equals("anything")) {
+		int i = 0, j = 0;
+		for (int k = 0; k < shoppingCart.length; k++) {
+			if (codeList[i][j].equals(shoppingCart[k]) || codeList[i][j].equals("anything")) {
 				j++;
-				if(j == codeList[i].length) {
+				if (j == codeList[i].length) {
 					i++;
-					j=0;
+					j = 0;
 				}
-				if(i == codeList.length)
+				if (i == codeList.length)
 					return 1;
-			}else {
-				j = codeList[i][0].equals("anything") ? 1: 0;
+			} else {
+				j = codeList[i][0].equals("anything") ? 1 : 0;
 			}
 		}
 		return 0;
 	}
-	
+
 }
