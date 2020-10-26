@@ -3,7 +3,7 @@
 Learn competitive programming through [leetcode](https://leetcode.com/)
 
 <b> ARRAY </b>
-<br/><br/>
+<br/>
 <br/> <b> Program 01: </b> Array of DVDs
 <br/> <b> Program 02: </b> Find Max Consecutive Ones
 <br/> <b> Program 03: </b> Even number of digits
