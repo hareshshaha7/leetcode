@@ -44,7 +44,7 @@ class Solution7 {
 	}
 }
 
-public class Program7 {
+public class Program07 {
 
 	public static void main(String[] args) {
 

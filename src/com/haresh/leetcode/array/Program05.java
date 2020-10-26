@@ -42,7 +42,7 @@ class Solution5 {
 
 }
 
-public class Program5 {
+public class Program05 {
 
 	public static void main(String[] args) {
 

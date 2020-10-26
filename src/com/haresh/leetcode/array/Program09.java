@@ -58,7 +58,7 @@ class Solution9 {
     }
 }
 
-public class Program9 {
+public class Program09 {
 
 	public static void main(String[] args) {
 

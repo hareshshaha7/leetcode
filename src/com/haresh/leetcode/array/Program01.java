@@ -18,7 +18,7 @@ class DVD {
 	}
 }
 
-public class Program1 {
+public class Program01 {
 
 	public static void main(String[] args) {
 		// The actual code for creating an Array to hold DVD's.

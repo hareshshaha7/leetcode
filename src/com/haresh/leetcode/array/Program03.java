@@ -50,7 +50,7 @@ class Solution3 {
     }
 }
 
-public class Program3 {
+public class Program03 {
 	
 	public static void main(String[] args) {
 		
