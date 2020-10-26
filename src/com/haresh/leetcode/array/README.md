@@ -21,3 +21,4 @@ Practice problems from [Arrays](https://leetcode.com/explore/featured/card/fun-w
 <br/> <b> Program 15: </b> Squares of a Sorted Array
 <br/> <b> Program 16: </b> Height Checker
 <br/> <b> Program 17: </b> Third Maximum Number
+<br/> <b> Program 18: </b> Minimum Parking Space
