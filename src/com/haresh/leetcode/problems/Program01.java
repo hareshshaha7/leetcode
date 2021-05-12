@@ -3,8 +3,6 @@
  */
 package com.haresh.leetcode.problems;
 
-import java.util.Iterator;
-
 /*
 	Running Sum of 1d Array
 	
