@@ -48,3 +48,9 @@ Learn competitive programming through [leetcode](https://leetcode.com/)
 <br/> <b> Program 18: </b> Merge Two Sorted Lists
 <br/> <b> Program 19: </b> Subtree of Another Tree
 
+-------
+<br/>
+
+<b> Problems Section </b>
+<br/>
+<br/> <b> Program 01: </b>  Running Sum of 1d Array
