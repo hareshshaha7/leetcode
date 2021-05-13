@@ -10,3 +10,4 @@ Practice problems from [Problems](https://leetcode.com/problemset/all/) section
 <br/> <b> Program 04: </b> Shuffle the Array
 <br/> <b> Program 05: </b> Number of Good Pairs
 <br/> <b> Program 06: </b> Queries on Number of Points Inside a Circle
+<br/> <b> Program 07: </b> Jewels and Stones
