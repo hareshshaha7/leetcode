@@ -3,6 +3,11 @@
  */
 package com.haresh.leetcode.problems;
 
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
+
 /*
 	Number of Good Pairs
 	https://leetcode.com/problems/number-of-good-pairs/
@@ -47,16 +52,34 @@ public class Program05 {
 	}
 
 	public static int numIdenticalPairs(int[] nums) {
-		int identicalPairs = 0;
-
-		for (int i = 0; i < nums.length; i++) {
-			for (int j = i + 1; j < nums.length; j++) {
-				if (nums[i] == nums[j])
-					identicalPairs++;
-			}
-		}
-
-		return identicalPairs;
+//		int identicalPairs = 0;
+//
+//		for (int i = 0; i < nums.length; i++) {
+//			for (int j = i + 1; j < nums.length; j++) {
+//				if (nums[i] == nums[j])
+//					identicalPairs++;
+//			}
+//		}
+//
+//		return identicalPairs;
+		
+		int count = 0;
+        Map<Integer, Set<Integer>> numIndices = new HashMap<>();
+        for(int i=0;i<nums.length;++i) {
+            int num = nums[i];
+            
+            if(numIndices.containsKey(num)) {
+                Set<Integer> set = numIndices.get(num);
+                count += set.size();
+                set.add(i);
+            } else {
+                Set<Integer> set = new HashSet<>();
+                set.add(i);
+                numIndices.put(num, set);
+            }
+        }
+        
+        return count;
 	}
 
 }
