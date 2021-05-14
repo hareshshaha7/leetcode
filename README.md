@@ -60,3 +60,4 @@ Learn competitive programming through [leetcode](https://leetcode.com/)
 <br/> <b> Program 05: </b> Number of Good Pairs
 <br/> <b> Program 06: </b> Queries on Number of Points Inside a Circle
 <br/> <b> Program 07: </b> Jewels and Stones
+<br/> <b> Program 08: </b> Partitioning Into Minimum Number Of Deci-Binary Numbers
