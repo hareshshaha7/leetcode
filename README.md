@@ -62,3 +62,4 @@ Learn competitive programming through [leetcode](https://leetcode.com/)
 <br/> <b> Program 07: </b> Jewels and Stones
 <br/> <b> Program 08: </b> Partitioning Into Minimum Number Of Deci-Binary Numbers
 <br/> <b> Program 09: </b> Design Parking System
+<br/> <b> Program 10: </b> Minimum Number of Operations to Move All Balls to Each Box
