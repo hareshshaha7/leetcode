@@ -51,20 +51,42 @@ public class Program10 {
 	}
 
 	public static int[] minOperations(String boxes) {
-		int[] answer = new int[boxes.length()];
+//		int[] answer = new int[boxes.length()];
+//
+//		for (int i = 0; i < boxes.length(); i++) {
+//			int box = Integer.parseInt(String.valueOf(boxes.charAt(i)));
+//
+//			if (box == 1) {
+//				for (int j = 0; j < answer.length; j++) {
+//					int value = Math.abs(i - j);
+//					answer[j] = answer[j] + value;
+//				}
+//			}
+//		}
+//
+//		return answer;
 
+		// Faster Solution
+		int[] result = new int[boxes.length()];
+		char[] array = boxes.toCharArray();// to make excess to chars a little bit faster
+		int Count = 0;
+		int accumulativeCount = 0;
 		for (int i = 0; i < boxes.length(); i++) {
-			int box = Integer.parseInt(String.valueOf(boxes.charAt(i)));
-
-			if (box == 1) {
-				for (int j = 0; j < answer.length; j++) {
-					int value = Math.abs(i - j);
-					answer[j] = answer[j] + value;
-				}
-			}
+			accumulativeCount += Count;
+			if (array[i] == '1')
+				Count++;
+			result[i] = accumulativeCount;
 		}
+		accumulativeCount = 0;
+		Count = 0;
+		for (int j = boxes.length() - 1; j > -1; j--) {
+			accumulativeCount += Count;
+			if (array[j] == '1')
+				Count++;
+			result[j] += accumulativeCount;
 
-		return answer;
+		}
+		return result;
 	}
 
 }
