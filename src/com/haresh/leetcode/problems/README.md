@@ -15,3 +15,4 @@ Practice problems from [Problems](https://leetcode.com/problemset/all/) section
 <br/> <b> Program 09: </b> Design Parking System
 <br/> <b> Program 10: </b> Minimum Number of Operations to Move All Balls to Each Box
 <br/> <b> Program 11: </b> How Many Numbers Are Smaller Than the Current Number
+<br/> <b> Program 12: </b> Richest Customer Wealth
