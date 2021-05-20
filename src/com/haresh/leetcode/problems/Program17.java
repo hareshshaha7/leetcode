@@ -3,11 +3,6 @@
  */
 package com.haresh.leetcode.problems;
 
-import java.util.ArrayDeque;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Queue;
-
 /*
 	Deepest Leaves Sum
 	https://leetcode.com/problems/deepest-leaves-sum/
@@ -94,8 +89,7 @@ public class Program17 {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		int[] nodes = { 1, 2, 3, 4, 5, -1, 6, 7, -1, -1, -1, -1, 8 };
-
+		
 		m_root = new Program17().new TreeNode(1);
 		m_root.left = new Program17().new TreeNode(2);
 		m_root.right = new Program17().new TreeNode(3);
@@ -106,6 +100,7 @@ public class Program17 {
 		m_root.right.right.right = new Program17().new TreeNode(8);
 
 		TreeNode node = new Program17().new TreeNode();
+//		int[] nodes = { 1, 2, 3, 4, 5, -1, 6, 7, -1, -1, -1, -1, 8 };
 //		m_root = node.insertLevelOrder(nodes, m_root, 0); // In this problem we do not use level order or other standard ordering
 		node.inOrder(m_root);
 		System.out.println();
