@@ -70,3 +70,4 @@ Learn competitive programming through [leetcode](https://leetcode.com/)
 <br/> <b> Program 15: </b> Number of Steps to Reduce a Number to Zero
 <br/> <b> Program 16: </b> Decompress Run-Length Encoded List
 <br/> <b> Program 17: </b> Deepest Leaves Sum
+<br/> <b> Program 18: </b> Decode XORed Array
