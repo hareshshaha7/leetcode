@@ -25,3 +25,4 @@ Practice problems from [Problems](https://leetcode.com/problemset/all/) section
 <br/> <b> Program 19: </b> Two Sum
 <br/> <b> Program 20: </b> Add Two Numbers
 <br/> <b> Program 21: </b> Longest Substring Without Repeating Characters
+<br/> <b> Program 22: </b> Median of Two Sorted Arrays
