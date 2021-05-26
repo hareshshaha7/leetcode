@@ -77,3 +77,4 @@ Learn competitive programming through [leetcode](https://leetcode.com/)
 <br/> <b> Program 22: </b> Median of Two Sorted Arrays
 <br/> <b> Program 23: </b> Longest Palindromic Substring
 <br/> <b> Program 24: </b> ZigZag Conversion
+<br/> <b> Program 25: </b> Reverse Integer
