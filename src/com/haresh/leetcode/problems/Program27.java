@@ -108,32 +108,56 @@ public class Program27 {
 	}
 
 	public static int myAtoi(String s) {
-		s = s.stripLeading();
-		if (s.equals(""))
-			return 0;
+//		s = s.stripLeading();
+//		if (s.equals(""))
+//			return 0;
+//		
+//		boolean isNegative = s.charAt(0) == '-' ? true : false;
+//		s = isNegative || s.charAt(0) == '+' ? s.substring(1) : s;
+//
+//		int num = 0;
+//		int counter = 0;
+//
+//		while (counter < s.length()) {
+//			if (!Character.isDigit(s.charAt(counter)))
+//				return isNegative ? -1 * num : num;
+//
+//			int digit = Integer.parseInt(s.substring(0, 1));
+//			s = s.substring(1);
+//
+//			if (num > Integer.MAX_VALUE / 10 || (num == Integer.MAX_VALUE / 10 && digit > 7))
+//				return isNegative ? -1 * Integer.MIN_VALUE : Integer.MAX_VALUE;
+//			if (num < Integer.MIN_VALUE / 10 || (num == Integer.MIN_VALUE / 10 && digit < -8))
+//				return isNegative ? -1 * Integer.MIN_VALUE : Integer.MAX_VALUE;
+//
+//			num = num * 10 + digit;
+//		}
+//
+//		return isNegative ? -1 * num : num;
 		
-		boolean isNegative = s.charAt(0) == '-' ? true : false;
-		s = isNegative || s.charAt(0) == '+' ? s.substring(1) : s;
-
-		int num = 0;
-		int counter = 0;
-
-		while (counter < s.length()) {
-			if (!Character.isDigit(s.charAt(counter)))
-				return isNegative ? -1 * num : num;
-
-			int digit = Integer.parseInt(s.substring(0, 1));
-			s = s.substring(1);
-
-			if (num > Integer.MAX_VALUE / 10 || (num == Integer.MAX_VALUE / 10 && digit > 7))
-				return isNegative ? -1 * Integer.MIN_VALUE : Integer.MAX_VALUE;
-			if (num < Integer.MIN_VALUE / 10 || (num == Integer.MIN_VALUE / 10 && digit < -8))
-				return isNegative ? -1 * Integer.MIN_VALUE : Integer.MAX_VALUE;
-
-			num = num * 10 + digit;
-		}
-
-		return isNegative ? -1 * num : num;
+		// Faster solution
+		boolean sign=false,firstNumber=false;
+        long j=1,ans=0;
+        for(int i=0;i<s.length();i++)
+        {
+            if(s.charAt(i)==' '&&!sign&&!firstNumber)continue;
+            if((s.charAt(i)=='-'||s.charAt(i)=='+')&&!sign&&!firstNumber)
+            {
+                if(s.charAt(i)=='-')
+                j=-1;
+                sign = true;
+            }
+            else if(s.charAt(i)>='0'&&s.charAt(i)<='9')
+            {
+                firstNumber=true;
+                ans=ans*10+(s.charAt(i)-'0');
+                if(ans*j<=Integer.MIN_VALUE)return Integer.MIN_VALUE;
+                else if(ans>Integer.MAX_VALUE)return Integer.MAX_VALUE;
+            }
+            else break;
+            
+        }
+        return (int)ans*(int)j;
 	}
 
 }
