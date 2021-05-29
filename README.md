@@ -80,3 +80,5 @@ Learn competitive programming through [leetcode](https://leetcode.com/)
 <br/> <b> Program 25: </b> Reverse Integer
 <br/> <b> Program 26: </b> Subsets
 <br/> <b> Program 27: </b> String to Integer (atoi)
+<br/> <b> Program 28: </b> Palindrome Number
+<br/> <b> Program 29: </b> Container With Most Water
