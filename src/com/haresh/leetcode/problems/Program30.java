@@ -66,7 +66,7 @@ public class Program30 {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		int num = 1990;
+		int num = 1998;
 		String romanNumber = intToRoman(num);
 		System.out.println(romanNumber);
 		
@@ -161,14 +161,12 @@ public class Program30 {
 				};
 		
 		String romanNumber = "";
-		while (num > 0) {
 			
-			for (int i = 0; i < pairs.length; i++) {
-				
-				while (num >= pairs[i].num ) {
-					num -= pairs[i].num;
-					romanNumber += pairs[i].romanStr;
-				}
+		for (int i = 0; i < pairs.length; i++) {
+			
+			while (num >= pairs[i].num ) {
+				num -= pairs[i].num;
+				romanNumber += pairs[i].romanStr;
 			}
 		}
 		
