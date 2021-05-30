@@ -66,9 +66,11 @@ public class Program30 {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		int num = 1998;
+		int num = 1990;
 		String romanNumber = intToRoman(num);
 		System.out.println(romanNumber);
+		
+		System.out.println(intToRomanBetter(num));
 	}
 
 	public static String intToRoman(int num) {
@@ -127,6 +129,49 @@ public class Program30 {
 			num--;
 		}
 
+		return romanNumber;
+	}
+	
+	class Pair {
+		int num;
+		String romanStr;
+		
+		public Pair(int num, String romanStr) {
+			this.num = num;
+			this.romanStr = romanStr;
+		}
+		
+	}
+	
+	public static String intToRomanBetter(int num) {
+		Pair[] pairs = new Pair[] {
+				new Program30().new Pair(1000, "M"),
+				new Program30().new Pair(900, "CM"),
+				new Program30().new Pair(500, "D"),
+				new Program30().new Pair(400, "CD"),
+				new Program30().new Pair(100, "C"),
+				new Program30().new Pair(90, "XC"),
+				new Program30().new Pair(50, "L"),
+				new Program30().new Pair(40, "XL"),
+				new Program30().new Pair(10, "X"),
+				new Program30().new Pair(9, "IX"),
+				new Program30().new Pair(5, "V"),
+				new Program30().new Pair(4, "IV"),
+				new Program30().new Pair(1, "I")
+				};
+		
+		String romanNumber = "";
+		while (num > 0) {
+			
+			for (int i = 0; i < pairs.length; i++) {
+				
+				while (num >= pairs[i].num ) {
+					num -= pairs[i].num;
+					romanNumber += pairs[i].romanStr;
+				}
+			}
+		}
+		
 		return romanNumber;
 	}
 }
