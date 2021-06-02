@@ -5,8 +5,11 @@ package com.haresh.leetcode.problems;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
+import java.util.Map;
 import java.util.Set;
 
 /*
@@ -51,12 +54,18 @@ public class Program33 {
 
 	public static List<List<Integer>> threeSum(int[] nums) {
 		Set<List<Integer>> result = new HashSet<List<Integer>>();
+//		Set<Integer> hs = new HashSet<>();
 
 		if (nums.length < 3)
 			return new ArrayList<List<Integer>>();
 
 		Arrays.sort(nums);
-		for (int i = 0; i < nums.length - 2; i++) {
+		for (int i = 0; i < nums.length; i++) {
+//			// avoid duplicates add() returns false if an element already present.
+//			if (hs.add(nums[i])) {
+//				result.addAll(twoSum(i, nums));
+//			}
+
 			int left = i + 1;
 			int right = nums.length - 1;
 
@@ -69,17 +78,46 @@ public class Program33 {
 					l.add(nums[left]);
 					l.add(nums[right]);
 					result.add(l);
-					
+
 					left++;
 					right--;
-				} else if (sum > 0) {
+
+				} else if (sum > 0)
 					right--;
-				} else {
+				else
 					left++;
-				}
 			}
 		}
 
 		return new ArrayList<>(result);
+	}
+
+	private static Set<List<Integer>> twoSum(int index, int[] nums) {
+		Set<List<Integer>> result = new HashSet<List<Integer>>();
+		Map<Integer, Integer> hm = new HashMap<>();
+
+		// negating the target is important.
+		int target = -nums[index];
+
+		for (int i = 0; i < nums.length; i++) {
+			if (i == index)
+				continue;
+
+			int compliment = target - nums[i];
+			if (hm.containsKey(nums[i])) {
+				ArrayList<Integer> ll = new ArrayList<>();
+				ll.add(nums[index]);
+				ll.add(nums[i]);
+				ll.add(nums[hm.get(nums[i])]);
+
+				// sorting is done inorder to insist hashset to compare the triplet duplicates.
+				Collections.sort(ll);
+				result.add(ll);
+			} else {
+				hm.put(compliment, i);
+			}
+		}
+
+		return result;
 	}
 }
