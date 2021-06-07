@@ -50,29 +50,25 @@ public class Program37 {
 	}
 
 	public static ListNode removeNthFromEnd(ListNode head, int n) {
-		ListNode front = head;
-		while (n > 0) {
-			front = front.next;
-			n--;
+		ListNode dummy = new Program37().new ListNode(0);
+		dummy.next = head;
+		ListNode first = dummy;
+		ListNode second = dummy;
+
+		// Advances first pointer so that the gap between first and second is n nodes
+		// apart
+		for (int i = 1; i <= n + 1; i++) {
+			first = first.next;
 		}
 
-		if (front == null) {
-			return head.next;
+		// Move first to the end, maintaining the gap
+		while (first != null) {
+			first = first.next;
+			second = second.next;
 		}
 
-		ListNode rear = head;
-		while (front.next != null) {
-			front = front.next;
-			rear = rear.next;
-		}
-
-		if (rear == front) {
-			head = null;
-			return head;
-		}
-
-		rear.next = rear.next.next;
-		return head;
+		second.next = second.next.next;
+		return dummy.next;
 	}
 
 	// Definition for singly-linked list.
@@ -96,8 +92,7 @@ public class Program37 {
 		public String toString() {
 			return "ListNode [val=" + val + ", next=" + next + "]";
 		}
-		
-		
+
 	}
 
 }
