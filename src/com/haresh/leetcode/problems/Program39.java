@@ -3,8 +3,6 @@
  */
 package com.haresh.leetcode.problems;
 
-import com.haresh.leetcode.problems.Program37.ListNode;
-
 /*
 	Merge Two Sorted Lists
 	https://leetcode.com/problems/merge-two-sorted-lists/
