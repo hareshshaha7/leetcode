@@ -5,7 +5,9 @@ package com.haresh.leetcode.problems;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
+import java.util.PriorityQueue;
 
 /*
 	Merge k Sorted Lists
@@ -118,6 +120,45 @@ public class Program41 {
 			ListNode temp = new Program41().new ListNode(l.get(i));
 			node.next = temp;
 			node = node.next;
+		}
+
+		return head.next;
+
+		// Slower Approach
+//		for (int i = 1; i < lists.length; i++) {
+//			lists[0] = mergeTwoList(lists[0], lists[i]);
+//		}
+//		
+//		return lists[0];
+	}
+
+	public static ListNode mergeTwoList(ListNode l1, ListNode l2) {
+		if (l1 == null) {
+			return l2;
+		}
+
+		if (l2 == null) {
+			return l1;
+		}
+
+		ListNode head = new Program41().new ListNode();
+		ListNode node = head;
+
+		while (l1 != null && l2 != null) {
+			if (l1.val < l2.val) {
+				node.next = l1;
+				l1 = l1.next;
+			} else {
+				node.next = l2;
+				l2 = l2.next;
+			}
+			node = node.next;
+		}
+
+		if (l1 != null) {
+			node.next = l1;
+		} else {
+			node.next = l2;
 		}
 
 		return head.next;
