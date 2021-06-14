@@ -65,7 +65,13 @@ public class Program33 {
 //			if (hs.add(nums[i])) {
 //				result.addAll(twoSum(i, nums));
 //			}
-
+			
+			if (nums[i] > 0)
+				break;
+		
+			if (i > 0 && nums[i] == nums[i - 1])
+				continue;
+			
 			int left = i + 1;
 			int right = nums.length - 1;
 
