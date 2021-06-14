@@ -98,28 +98,76 @@ public class Program43 {
 			return head;
 		}
 
-		List<Integer> resultingList = new ArrayList<>();
-		while (head != null) {
-			List<Integer> l = new ArrayList<Integer>();
-			for (int i = 1; i <= k; i++) {
-				if (head == null)
-					break;
-				l.add(head.val);
-				head = head.next;
+		ListNode sHead = new Program43().new ListNode(-1);
+		ListNode sTail = sHead;
+		int count = 0;
+
+		ListNode n1 = head, n2 = head;
+
+		while (n2 != null) {
+			ListNode next = n2.next;
+			count++;
+
+			if (count == k) {
+				n2.next = null;
+
+				ListNode[] reverse = reverseList(n1);
+				sTail.next = reverse[0]; // Head of the reversed list
+				sTail = reverse[1]; // Tail of the reversed list
+
+				n1 = next;
+				count = 0;
+
+			} else if (next == null) {
+				sTail.next = n1;
 			}
 
-			if (l.size() == k)
-				Collections.reverse(l);
-			resultingList.addAll(l);
+			n2 = next;
 		}
 
-		ListNode result = new Program43().new ListNode(-1);
-		ListNode node = result;
-		for (int i = 0; i < resultingList.size(); i++) {
-			node.next = new Program43().new ListNode(resultingList.get(i));
-			node = node.next;
+		return sHead.next;
+
+//		Slower Solution
+//		
+//		List<Integer> resultingList = new ArrayList<>();
+//		while (head != null) {
+//			List<Integer> l = new ArrayList<Integer>();
+//			for (int i = 1; i <= k; i++) {
+//				if (head == null)
+//					break;
+//				l.add(head.val);
+//				head = head.next;
+//			}
+//
+//			if (l.size() == k)
+//				Collections.reverse(l);
+//			resultingList.addAll(l);
+//		}
+//
+//		ListNode result = new Program43().new ListNode(-1);
+//		ListNode node = result;
+//		for (int i = 0; i < resultingList.size(); i++) {
+//			node.next = new Program43().new ListNode(resultingList.get(i));
+//			node = node.next;
+//		}
+//
+//		return result.next;
+	}
+
+	private static ListNode[] reverseList(ListNode n1) {
+		ListNode rHead = null, rTail = null;
+
+		while (n1 != null) {
+			ListNode next = n1.next;
+			n1.next = rHead;
+			rHead = n1;
+			n1 = next;
+
+			if (rTail == null) {
+				rTail = rHead;
+			}
 		}
 
-		return result.next;
+		return new ListNode[] { rHead, rTail };
 	}
 }
