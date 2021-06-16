@@ -3,8 +3,6 @@
  */
 package com.haresh.leetcode.problems;
 
-import java.util.Arrays;
-
 /*
 	26. Remove Duplicates from Sorted Array
 	https://leetcode.com/problems/remove-duplicates-from-sorted-array/
