@@ -97,3 +97,4 @@ Learn competitive programming through [leetcode](https://leetcode.com/)
 <br/> <b> Program 42: </b> Swap Nodes in Pairs
 <br/> <b> Program 43: </b> Reverse Nodes in k-Group
 <br/> <b> Program 44: </b> [Easy] Remove Duplicates from Sorted Array
+<br/> <b> Program 45: </b> [Easy] Remove Element
