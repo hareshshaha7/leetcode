@@ -5,3 +5,4 @@ Learn competitive programming through [leetcode](https://leetcode.com/)
 Practice problems from [Binary Tree](https://leetcode.com/explore/learn/card/data-structure-tree/134/traverse-a-tree/) section
 <br/>
 <br/> <b> Program 01: </b> Binary Tree Preorder Traversal
+<br/> <b> Program 02: </b> Binary Tree Inorder Traversal

@@ -29,6 +29,7 @@ Learn competitive programming through [leetcode](https://leetcode.com/)
 <b> Binary Tree </b>
 <br/>
 <br/> <b> Program 01: </b> Binary Tree Preorder Traversal
+<br/> <b> Program 02: </b> Binary Tree Inorder Traversal
 
 
 -------

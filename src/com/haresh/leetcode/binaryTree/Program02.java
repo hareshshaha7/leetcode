@@ -7,13 +7,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 /*
-	Binary Tree Preorder Traversal
-	
-	Given the root of a binary tree, return the preorder traversal of its nodes' values.
+	Binary Tree Inorder Traversal
+
+	Given the root of a binary tree, return the inorder traversal of its nodes' values.
 	
 	Example 1:
 	Input: root = [1,null,2,3]
-	Output: [1,2,3]
+	Output: [1,3,2]
 	
 	Example 2:
 	Input: root = []
@@ -25,7 +25,7 @@ import java.util.List;
 	
 	Example 4:
 	Input: root = [1,2]
-	Output: [1,2]
+	Output: [2,1]
 	
 	Example 5:
 	Input: root = [1,null,2]
@@ -34,8 +34,7 @@ import java.util.List;
 	Constraints:
 		The number of nodes in the tree is in the range [0, 100].
 		-100 <= Node.val <= 100
-	 
-	
+ 
 	Follow up: Recursive solution is trivial, could you do it iteratively?
  */
 
@@ -44,17 +43,17 @@ import java.util.List;
  * @since 05-Jul-2021
  *
  */
-public class Program01 {
+public class Program02 {
 
 	/**
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		TreeNode root = new Program01().new TreeNode(1);
-		root.right = new Program01().new TreeNode(2);
-		root.right.left = new Program01().new TreeNode(3);
+		TreeNode root = new Program02().new TreeNode(1);
+		root.right = new Program02().new TreeNode(2);
+		root.right.left = new Program02().new TreeNode(3);
 
-		List<Integer> result = preorderTraversal(root);
+		List<Integer> result = inorderTraversal(root);
 		System.out.println(result);
 	}
 
@@ -78,17 +77,18 @@ public class Program01 {
 		}
 	}
 
-	public static List<Integer> preorderTraversal(TreeNode root) {
-		return preorder(root, new ArrayList<>());
+	public static List<Integer> inorderTraversal(TreeNode root) {
+		return inorder(root, new ArrayList<>());
 	}
 
-	public static List<Integer> preorder(TreeNode root, List<Integer> result) {
-		if (root == null)
+	public static List<Integer> inorder(TreeNode root, List<Integer> result) {
+		if (root == null) {
 			return result;
+		}
 
+		inorder(root.left, result);
 		result.add(root.val);
-		preorder(root.left, result);
-		preorder(root.right, result);
+		inorder(root.right, result);
 
 		return result;
 	}
