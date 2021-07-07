@@ -8,3 +8,4 @@ Practice problems from [Binary Tree](https://leetcode.com/explore/learn/card/dat
 <br/> <b> Program 02: </b> Binary Tree Inorder Traversal
 <br/> <b> Program 03: </b> Binary Tree Postorder Traversal
 <br/> <b> Program 04: </b> Binary Tree Level Order Traversal
+<br/> <b> Program 05: </b> Maximum Depth of Binary Tree
