@@ -113,3 +113,4 @@ Learn competitive programming through [leetcode](https://leetcode.com/)
 <br/> <b> Program 46: </b> [Easy] Count Good Triplets
 <br/> <b> Program 47: </b> [Medium] Maximum Subarray Sum with One Deletion
 <br/> <b> Program 48: </b> [Medium] Out of Boundary Paths
+<br/> <b> Program 49: </b> [Easy] Missing Number
