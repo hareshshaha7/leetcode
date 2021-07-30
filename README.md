@@ -116,3 +116,4 @@ Learn competitive programming through [leetcode](https://leetcode.com/)
 <br/> <b> Program 49: </b> [Easy] Missing Number
 <br/> <b> Program 50: </b> [Medium] Sort Colors
 <br/> <b> Program 51: </b> [Easy] Merge Sorted Array
+<br/> <b> Program 52: </b> [Easy] Maximum Subarray
