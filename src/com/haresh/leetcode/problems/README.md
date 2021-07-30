@@ -54,3 +54,4 @@ Practice problems from [Problems](https://leetcode.com/problemset/all/) section
 <br/> <b> Program 48: </b> [Medium] Out of Boundary Paths
 <br/> <b> Program 49: </b> [Easy] Missing Number
 <br/> <b> Program 50: </b> [Medium] Sort Colors
+<br/> <b> Program 51: </b> [Easy] Merge Sorted Array
