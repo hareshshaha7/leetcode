@@ -56,4 +56,4 @@ Practice problems from [Problems](https://leetcode.com/problemset/all/) section
 <br/> <b> Program 50: </b> [Medium] Sort Colors
 <br/> <b> Program 51: </b> [Easy] Merge Sorted Array
 <br/> <b> Program 52: </b> [Easy] Maximum Subarray
-
+<br/> <b> Program 53: </b> [Medium] Merge Intervals
