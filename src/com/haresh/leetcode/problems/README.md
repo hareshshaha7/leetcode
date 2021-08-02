@@ -58,3 +58,4 @@ Practice problems from [Problems](https://leetcode.com/problemset/all/) section
 <br/> <b> Program 52: </b> [Easy] Maximum Subarray
 <br/> <b> Program 53: </b> [Medium] Merge Intervals
 <br/> <b> Program 54: </b> [Medium] Set Matrix Zeroes
+<br/> <b> Program 55: </b> [Easy] Find the Duplicate Number
