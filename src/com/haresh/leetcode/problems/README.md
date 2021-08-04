@@ -63,3 +63,4 @@ Practice problems from [Problems](https://leetcode.com/problemset/all/) section
 <br/> <b> Program 57: </b> [Medium] Next Permutation
 <br/> <b> Program 58: </b> [Medium] Global and Local Inversions
 <br/> <b> Program 59: </b> [Easy] Best Time to Buy and Sell Stock
+<br/> <b> Program 60: </b> [Medium] Rotate Image
