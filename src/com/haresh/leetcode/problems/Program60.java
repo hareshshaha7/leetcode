@@ -78,6 +78,7 @@ public class Program60 {
 	}
 
 	public static void rotate(int[][] matrix) {
+		// Rotate rotationally
 		int n = matrix.length;
 		for (int i = 0; i < (n + 1) / 2; i++) {
 			for (int j = 0; j < n / 2; j++) {
@@ -91,6 +92,12 @@ public class Program60 {
 	}
 
 	public static void rotateSimple(int[][] matrix) {
+		/*
+			Original	Transpose	Reverse
+	 		1 2 3		1 4 7		7 4 1
+			4 5 6	->	2 5 6	->	8 5 2
+			7 8 9		3 6 9		9 6 3
+		 */
 		transpose(matrix);
 		reverse(matrix);
 	}
