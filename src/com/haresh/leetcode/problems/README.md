@@ -65,3 +65,4 @@ Practice problems from [Problems](https://leetcode.com/problemset/all/) section
 <br/> <b> Program 59: </b> [Easy] Best Time to Buy and Sell Stock
 <br/> <b> Program 60: </b> [Medium] Rotate Image
 <br/> <b> Program 61: </b> [Medium] Search a 2D Matrix
+<br/> <b> Program 62: </b> [Medium] Pow(x, n)
