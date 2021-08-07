@@ -128,4 +128,5 @@ Learn competitive programming through [leetcode](https://leetcode.com/)
 <br/> <b> Program 61: </b> [Medium] Search a 2D Matrix
 <br/> <b> Program 62: </b> [Medium] Pow(x, n)
 <br/> <b> Program 63: </b> [Easy] Majority Element
-<br/> <b> Program 64: </b> Majority Element II
+<br/> <b> Program 64: </b> [Medium] Majority Element II
+<br/> <b> Program 65: </b> [Medium] Unique Paths
