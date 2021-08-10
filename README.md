@@ -131,3 +131,4 @@ Learn competitive programming through [leetcode](https://leetcode.com/)
 <br/> <b> Program 64: </b> [Medium] Majority Element II
 <br/> <b> Program 65: </b> [Medium] Unique Paths
 <br/> <b> Program 66: </b> [Medium] Longest Consecutive Sequence
+<br/> <b> Program 67: </b> [Medium] Subarray Sum Equals K
