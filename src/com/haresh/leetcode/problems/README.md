@@ -69,3 +69,4 @@ Practice problems from [Problems](https://leetcode.com/problemset/all/) section
 <br/> <b> Program 63: </b> [Easy] Majority Element
 <br/> <b> Program 64: </b> [Medium] Majority Element II
 <br/> <b> Program 65: </b> [Medium] Unique Paths
+<br/> <b> Program 66: </b> [Medium] Longest Consecutive Sequence
