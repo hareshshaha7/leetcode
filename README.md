@@ -134,3 +134,4 @@ Learn competitive programming through [leetcode](https://leetcode.com/)
 <br/> <b> Program 67: </b> [Medium] Subarray Sum Equals K
 <br/> <b> Program 68: </b> [Medium] XOR Queries of a Subarray
 <br/> <b> Program 69: </b> [Easy] Reverse Linked List
+<br/> <b> Program 70: </b> [Medium] Intersection of Two Linked Lists
