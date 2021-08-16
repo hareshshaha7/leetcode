@@ -3,8 +3,6 @@
  */
 package com.haresh.leetcode.problems;
 
-import com.haresh.leetcode.problems.Program70.ListNode;
-
 /*
 	141. Linked List Cycle
 	https://leetcode.com/problems/linked-list-cycle/
