@@ -74,6 +74,7 @@ Practice problems from [Problems](https://leetcode.com/problemset/all/) section
 <br/> <b> Program 68: </b> [Medium] XOR Queries of a Subarray
 <br/> <b> Program 69: </b> [Easy] Reverse Linked List
 <br/> <b> Program 70: </b> [Medium] Intersection of Two Linked Lists
-<br/> <b> Program 71: </b> [Easy]  Linked List Cycle
+<br/> <b> Program 71: </b> [Easy] Linked List Cycle
 <br/> <b> Program 72: </b> [Hard] Reverse Nodes in k-Group
 <br/> <b> Program 73: </b> [Easy] Palindrome Linked List
+<br/> <b> Program 74: </b> [Medium] Linked List Cycle II
