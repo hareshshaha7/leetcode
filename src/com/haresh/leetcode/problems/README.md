@@ -82,5 +82,6 @@ Practice problems from [Problems](https://leetcode.com/problemset/all/) section
 <br/> <b> Program 76: </b> [Medium] Rotate List
 <br/> <b> Program 77: </b> [Medium] Copy List with Random Pointer
 <br/> <b> Program 78: </b> [Hard] Trapping Rain Water
+<br/> <b> Program 79: </b> [Easy] Remove Duplicates from Sorted Array
 
 <br/> <b> Program 82: </b> [Medium] N meeting in one room
