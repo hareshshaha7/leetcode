@@ -17,7 +17,7 @@ import java.util.List;
  * @since 18-Aug-2021
  *
  */
-public class Program82 {
+public class Program81 {
 
 	class Meetings {
 		private int startTime;
@@ -63,7 +63,7 @@ public class Program82 {
 	private static int[] process(int n, int[] start, int[] finish) {
 		List<Meetings> meetings = new ArrayList<>();
 		for (int i = 0; i < start.length; i++) {
-			meetings.add(new Program82().new Meetings(start[i], finish[i], i + 1));
+			meetings.add(new Program81().new Meetings(start[i], finish[i], i + 1));
 		}
 
 		meetings.sort((m1, m2) -> m1.getEndTime() == m2.getEndTime() ? m1.getMeetingNumber() - m2.getMeetingNumber()
