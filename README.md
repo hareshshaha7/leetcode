@@ -140,5 +140,6 @@ Learn competitive programming through [leetcode](https://leetcode.com/)
 <br/> <b> Program 73: </b> [Easy] Palindrome Linked List
 <br/> <b> Program 74: </b> [Medium] Linked List Cycle II
 <br/> <b> Program 75: </b> [Medium] Flatten a Multilevel Doubly Linked List
+<br/> <b> Program 76: </b> [Medium] Rotate List
 
 <br/> <b> Program 82: </b> [Medium] N meeting in one room
