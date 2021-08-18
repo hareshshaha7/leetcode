@@ -81,5 +81,6 @@ Practice problems from [Problems](https://leetcode.com/problemset/all/) section
 <br/> <b> Program 75: </b> [Medium] Flatten a Multilevel Doubly Linked List
 <br/> <b> Program 76: </b> [Medium] Rotate List
 <br/> <b> Program 77: </b> [Medium] Copy List with Random Pointer
+<br/> <b> Program 78: </b> [Hard] Trapping Rain Water
 
 <br/> <b> Program 82: </b> [Medium] N meeting in one room
