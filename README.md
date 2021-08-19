@@ -145,5 +145,5 @@ Learn competitive programming through [leetcode](https://leetcode.com/)
 <br/> <b> Program 78: </b> [Hard] Trapping Rain Water
 <br/> <b> Program 79: </b> [Easy] Remove Duplicates from Sorted Array
 <br/> <b> Program 80: </b> [Easy] Max Consecutive Ones
-
-<br/> <b> Program 82: </b> [Medium] N meeting in one room
+<br/> <b> Program 81: </b> [Medium] N meeting in one room
+<br/> <b> Program 82: </b> [Medium] Minimum Platforms
