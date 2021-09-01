@@ -147,3 +147,4 @@ Learn competitive programming through [leetcode](https://leetcode.com/)
 <br/> <b> Program 80: </b> [Easy] Max Consecutive Ones
 <br/> <b> Program 81: </b> [Medium] N meeting in one room
 <br/> <b> Program 82: </b> [Medium] Minimum Platforms
+<br/> <b> Program 83: </b> [Medium] Subsets
