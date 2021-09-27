@@ -34,6 +34,7 @@ Learn competitive programming through [leetcode](https://leetcode.com/)
 <br/> <b> Program 04: </b> Binary Tree Level Order Traversal
 <br/> <b> Program 05: </b> Maximum Depth of Binary Tree
 <br/> <b> Program 06: </b> Symmetric Tree
+<br/> <b> Program 07: </b> Path Sum
 
 -------
 <br/>
