@@ -1,7 +1,5 @@
 package com.haresh.leetcode.binaryTree;
 
-import com.haresh.leetcode.binaryTree.Program07.TreeNode;
-
 /*
 	Path Sum
 	
