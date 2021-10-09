@@ -12,4 +12,5 @@ Practice problems from [Binary Tree](https://leetcode.com/explore/learn/card/dat
 <br/> <b> Program 06: </b> Symmetric Tree
 <br/> <b> Program 07: </b> Path Sum
 <br/> <b> Program 08: </b> Construct Binary Tree from Inorder and Postorder Traversal
-<br/> <b> Program 09: </b> left view of the Binary Tree
+<br/> <b> Program 09: </b> Left view of the Binary Tree
+<br/> <b> Program 10: </b> Right view of the Binary Tree
