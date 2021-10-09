@@ -38,7 +38,7 @@ Output: 1 2 4 6
  * @since 09-Oct-2021
  *
  */
-public class Project09 {
+public class Program09 {
 
 	class Node {
 		int data;
@@ -58,12 +58,12 @@ public class Project09 {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		Node root = new Project09().new Node(1);
-		root.left = new Project09().new Node(2);
-		root.right = new Project09().new Node(3);
-		root.left.right = new Project09().new Node(4);
-		root.right.left = new Project09().new Node(5);
-		root.right.left.right = new Project09().new Node(6);
+		Node root = new Program09().new Node(1);
+		root.left = new Program09().new Node(2);
+		root.right = new Program09().new Node(3);
+		root.left.right = new Program09().new Node(4);
+		root.right.left = new Program09().new Node(5);
+		root.right.left.right = new Program09().new Node(6);
 
 		leftView(root, 1);
 	}
