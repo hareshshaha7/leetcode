@@ -1,35 +1,35 @@
 package com.haresh.leetcode.binaryTree;
 
 /*
-Print the right view of the Binary Tree.
-
-For e.g.
-Example 1:
-Input:
-		1
-	  /   \
-	2		3
-Output: 1 3
-
-Example 2:
-Input:
-		1
-	  /   \
-	2		3
-	  \
-	   4
-Output: 1 3 4
-
-Example 2:
-Input:
-		1
-	  /   \
-	2		3
-	  \	   /
-	   4  5
-	  /	   
-	 6  	   	
-Output: 1 3 5 6
+	Print the right view of the Binary Tree.
+	
+	For e.g.
+	Example 1:
+	Input:
+			1
+		  /   \
+		 2	   3
+	Output: 1 3
+	
+	Example 2:
+	Input:
+			1
+		  /   \
+		 2	   3
+		  \
+		   4
+	Output: 1 3 4
+	
+	Example 2:
+	Input:
+			1
+		  /   \
+		 2	   3
+		  \	  /
+		   4 5
+	 	  /	   
+	 	 6  	   	
+	Output: 1 3 5 6
 
  */
 
