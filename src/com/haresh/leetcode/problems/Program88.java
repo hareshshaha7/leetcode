@@ -38,8 +38,7 @@ package com.haresh.leetcode.problems;
 
 /**
  * @author Haresh Shaha
- * @since 07-Sep-2021
- *
+ * @since 28-Dec-2021
  */
 public class Program88 {
     /**
@@ -68,8 +67,7 @@ public class Program88 {
         for (int i = 1; i < s.length(); i++) {
             if (lastNumber == s.charAt(i)) {
                 lastNumberCount++;
-            }
-            else {
+            } else {
                 pronunciation.append(lastNumberCount);
                 pronunciation.append(lastNumber);
                 lastNumber = s.charAt(i);

@@ -92,3 +92,4 @@ Practice problems from [Problems](https://leetcode.com/problemset/all/) section
 <br/> <b> Program 86: </b> [Medium] Combination Sum II
 <br/> <b> Program 87: </b> [Medium] Palindrome Partitioning
 <br/> <b> Program 88: </b> [Medium] Count and Say
+<br/> <b> Program 89: </b> [Medium] String Compression
