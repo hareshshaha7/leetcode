@@ -11,6 +11,11 @@ package com.haresh.leetcode.problems;
     To convert the saying into a digit string, replace the counts with a number and concatenate every saying.
 
     For example, the saying and conversion for digit string "3322251":
+    "3322251"
+    two 3's three 2's one 5 one 1
+    2 3 + 3 2 + 1 5 + 1 1
+    "23321511"
+
     Given a positive integer n, return the nth term of the count-and-say sequence.
 
     Example 1:
