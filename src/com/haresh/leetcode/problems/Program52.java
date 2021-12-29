@@ -48,17 +48,25 @@ public class Program52 {
 	}
 
 	public static int maxSubArray(int[] nums) {
-		int maxSum = Integer.MIN_VALUE;
-		int sum = 0;
+//		int maxSum = Integer.MIN_VALUE;
+//		int sum = 0;
+//
+//		for (int n : nums) {
+//			sum += n;
+//			if (maxSum < sum) {
+//				maxSum = sum;
+//			}
+//			if (sum < 0) {
+//				sum = 0;
+//			}
+//		}
+//		return maxSum;
 
-		for (int n : nums) {
-			sum += n;
-			if (maxSum < sum) {
-				maxSum = sum;
-			}
-			if (sum < 0) {
-				sum = 0;
-			}
+		int maxSum = nums[0];
+		int sum = nums[0];
+		for (int i=1; i<nums.length; i++) {
+			sum = Math.max(nums[i], nums[i]+ sum);
+			maxSum = Math.max(sum, maxSum);
 		}
 		return maxSum;
 	}
