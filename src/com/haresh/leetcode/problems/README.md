@@ -95,3 +95,4 @@ Practice problems from [Problems](https://leetcode.com/problemset/all/) section
 <br/> <b> Program 89: </b> [Medium] String Compression
 <br/> <b> Program 90: </b> [Easy] Contains Duplicate
 <br/> <b> Program 91: </b> [Easy] Contains Duplicate II
+<br/> <b> Program 92: </b> [Medium] Interval List Intersections
