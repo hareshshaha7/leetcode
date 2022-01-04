@@ -31,7 +31,7 @@ import java.util.*;
  * @author Haresh Shaha
  * @since 03-Jan-2022
  */
-public class Program93 {
+public class Program94 {
 
     /**
      * @param args arguments
