@@ -99,7 +99,7 @@ Practice problems from [Problems](https://leetcode.com/problemset/all/) section
 Intersection of Two Arrays
 <br/> <b> Program 94: </b> [Easy] Intersection of Two Arrays II
 Find Common Characters
-Two Sum II - Input Array Is Sorted
+<br/> <b> Program 96: </b> [Easy] Two Sum II - Input Array Is Sorted
 Two Sum III - Data structure design
 Two Sum Less Than K
 Two Sum IV - Input is a BST
