@@ -96,4 +96,11 @@ Practice problems from [Problems](https://leetcode.com/problemset/all/) section
 <br/> <b> Program 90: </b> [Easy] Contains Duplicate
 <br/> <b> Program 91: </b> [Easy] Contains Duplicate II
 <br/> <b> Program 92: </b> [Medium] Interval List Intersections
-<br/> <b> Program 93: </b> [Easy] Intersection of Two Arrays II
+Intersection of Two Arrays
+<br/> <b> Program 94: </b> [Easy] Intersection of Two Arrays II
+Find Common Characters
+Two Sum II - Input Array Is Sorted
+Two Sum III - Data structure design
+Two Sum Less Than K
+Two Sum IV - Input is a BST
+Two Sum BSTs
