@@ -102,5 +102,20 @@ Practice problems from [Problems](https://leetcode.com/problemset/all/) section
 <br/> <b> Program 96: </b> [Easy] Two Sum II - Input Array Is Sorted
 Two Sum III - Data structure design
 Two Sum Less Than K
+Binary String With Substrings Representing 1 To N
+Apply Discount Every n Orders
+Minimum Cost Homecoming of a Robot in a Grid
 <br/> <b> Program 99: </b> [Easy] Two Sum IV - Input is a BST
 Two Sum BSTs
+Maximum Product Subarray
+Degree of an Array
+Longest Turbulent Subarray
+Maximum Absolute Sum of Any Subarray
+Maximum Subarray Sum After One Operation
+Best Time to Buy and Sell Stock II
+Best Time to Buy and Sell Stock III
+Best Time to Buy and Sell Stock IV
+Best Time to Buy and Sell Stock with Cooldown
+Sum of Beauty in the Array
+Maximum Difference Between Increasing Elements
+<br/> <b> Program 112: </b> [Easy] Reshape the Matrix
