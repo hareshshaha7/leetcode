@@ -119,3 +119,6 @@ Best Time to Buy and Sell Stock with Cooldown
 Sum of Beauty in the Array
 Maximum Difference Between Increasing Elements
 <br/> <b> Program 112: </b> [Easy] Reshape the Matrix
+<br/> <b> Program 113: </b> [Easy] Convert 1D Array Into 2D Array
+Bag of Tokens
+Number of Ways of Cutting a Pizza
