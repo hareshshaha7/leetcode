@@ -121,4 +121,8 @@ Maximum Difference Between Increasing Elements
 <br/> <b> Program 112: </b> [Easy] Reshape the Matrix
 <br/> <b> Program 113: </b> [Easy] Convert 1D Array Into 2D Array
 <br/> <b> Program 114: </b> [Medium] Bag of Tokens
+Reveal Cards In Increasing Order
+Eliminate Maximum Number of Monsters
 Number of Ways of Cutting a Pizza
+Pascal's Triangle II
+<br/> <b> Program 119: </b> [Medium]  Valid Sudoku
