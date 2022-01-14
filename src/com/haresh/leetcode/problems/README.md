@@ -100,9 +100,7 @@ Practice problems from [Problems](https://leetcode.com/problemset/all/) section
 <br/> <b> Program 94: </b> [Easy] Intersection of Two Arrays II
 <br/> <b> Program 95: </b> [Easy] Find Common Characters
 <br/> <b> Program 96: </b> [Easy] Two Sum II - Input Array Is Sorted
-Two Sum III - Data structure design
-Two Sum Less Than K
-Binary String With Substrings Representing 1 To N
+<br/> <b> Program 97: </b> [Medium] Binary String With Substrings Representing 1 To N
 Apply Discount Every n Orders
 Minimum Cost Homecoming of a Robot in a Grid
 <br/> <b> Program 99: </b> [Easy] Two Sum IV - Input is a BST
@@ -126,3 +124,5 @@ Eliminate Maximum Number of Monsters
 Number of Ways of Cutting a Pizza
 Pascal's Triangle II
 <br/> <b> Program 119: </b> [Medium]  Valid Sudoku
+Sudoku Solver
+Check if Every Row and Column Contains All Numbers
