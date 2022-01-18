@@ -130,3 +130,4 @@ Jump Game
 Jump Game II
 Jump Game III
 <br/> <b> Program 125: </b> [Hard] Jump Game IV
+<br/> <b> Program 126: </b> [Easy] Can Place Flowers
