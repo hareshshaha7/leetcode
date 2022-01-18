@@ -123,6 +123,10 @@ Reveal Cards In Increasing Order
 Eliminate Maximum Number of Monsters
 Number of Ways of Cutting a Pizza
 Pascal's Triangle II
-<br/> <b> Program 119: </b> [Medium]  Valid Sudoku
+<br/> <b> Program 119: </b> [Medium] Valid Sudoku
 Sudoku Solver
 Check if Every Row and Column Contains All Numbers
+Jump Game
+Jump Game II
+Jump Game III
+<br/> <b> Program 125: </b> [Hard] Jump Game IV
