@@ -36,6 +36,10 @@ package com.haresh.leetcode.problems;
 
 import java.util.*;
 
+/**
+ * @author Haresh Shaha
+ * @since 18-Jan-2022
+ */
 public class Program125 {
     public static void main(String[] args) {
         int[] arr = {100, -23, -23, 404, 100, 23, 23, 23, 3, 404};

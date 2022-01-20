@@ -157,3 +157,21 @@ Learn competitive programming through [leetcode](https://leetcode.com/)
 <br/> <b> Program 85: </b> [Medium] Combination Sum
 <br/> <b> Program 86: </b> [Medium] Combination Sum II
 <br/> <b> Program 87: </b> [Medium] Palindrome Partitioning
+<br/> <b> Program 88: </b> [Medium] Count and Say
+<br/> <b> Program 89: </b> [Medium] String Compression
+<br/> <b> Program 90: </b> [Easy] Contains Duplicate
+<br/> <b> Program 91: </b> [Easy] Contains Duplicate II
+<br/> <b> Program 92: </b> [Medium] Interval List Intersections
+<br/> <b> Program 93: </b> [Easy] Intersection of Two Arrays
+<br/> <b> Program 94: </b> [Easy] Intersection of Two Arrays II
+<br/> <b> Program 95: </b> [Easy] Find Common Characters
+<br/> <b> Program 96: </b> [Easy] Two Sum II - Input Array Is Sorted
+<br/> <b> Program 97: </b> [Medium] Binary String With Substrings Representing 1 To N
+<br/> <b> Program 99: </b> [Easy] Two Sum IV - Input is a BST
+<br/> <b> Program 112: </b> [Easy] Reshape the Matrix
+<br/> <b> Program 113: </b> [Easy] Convert 1D Array Into 2D Array
+<br/> <b> Program 114: </b> [Medium] Bag of Tokens
+<br/> <b> Program 119: </b> [Medium] Valid Sudoku
+<br/> <b> Program 125: </b> [Hard] Jump Game IV
+<br/> <b> Program 126: </b> [Easy] Can Place Flowers
+<br/> <b> Program 127: </b> [Easy] Teemo Attacking

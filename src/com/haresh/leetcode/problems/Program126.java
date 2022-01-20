@@ -24,6 +24,10 @@ package com.haresh.leetcode.problems;
         0 <= n <= flowerbed.length
  */
 
+/**
+ * @author Haresh Shaha
+ * @since 18-Jan-2022
+ */
 public class Program126 {
     public static void main(String[] args) {
         int[] flowerbed = {1, 0, 0, 0, 1};
