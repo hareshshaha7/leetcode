@@ -131,3 +131,5 @@ Jump Game II
 Jump Game III
 <br/> <b> Program 125: </b> [Hard] Jump Game IV
 <br/> <b> Program 126: </b> [Easy] Can Place Flowers
+<br/> <b> Program 127: </b> [Easy] Teemo Attacking
+<br/> <b> Program 128: </b> [Medium] Asteroid Collision
