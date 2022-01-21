@@ -134,3 +134,4 @@ Jump Game III
 <br/> <b> Program 127: </b> [Easy] Teemo Attacking
 <br/> <b> Program 128: </b> [Medium] Asteroid Collision
 <br/> <b> Program 129: </b> [Medium] Gas Station
+<br/> <b> Program 130: </b> [Easy] Distribute Candies to People
