@@ -168,6 +168,7 @@ Learn competitive programming through [leetcode](https://leetcode.com/)
 <br/> <b> Program 96: </b> [Easy] Two Sum II - Input Array Is Sorted
 <br/> <b> Program 97: </b> [Medium] Binary String With Substrings Representing 1 To N
 <br/> <b> Program 99: </b> [Easy] Two Sum IV - Input is a BST
+<br/> <b> Program 106: </b> [Medium] Best Time to Buy and Sell Stock II
 <br/> <b> Program 112: </b> [Easy] Reshape the Matrix
 <br/> <b> Program 113: </b> [Easy] Convert 1D Array Into 2D Array
 <br/> <b> Program 114: </b> [Medium] Bag of Tokens

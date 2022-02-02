@@ -110,7 +110,7 @@ Degree of an Array
 Longest Turbulent Subarray
 Maximum Absolute Sum of Any Subarray
 Maximum Subarray Sum After One Operation
-Best Time to Buy and Sell Stock II
+<br/> <b> Program 106: </b> [Medium] Best Time to Buy and Sell Stock II
 Best Time to Buy and Sell Stock III
 Best Time to Buy and Sell Stock IV
 Best Time to Buy and Sell Stock with Cooldown
