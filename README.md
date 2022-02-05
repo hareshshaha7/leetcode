@@ -188,3 +188,4 @@ Learn competitive programming through [leetcode](https://leetcode.com/)
 <br/> <b> Program 140: </b> [Easy] Valid Anagram
 <br/> <b> Program 141: </b> [Medium] Number of Islands
 <br/> <b> Program 142: </b> [Medium] Surrounded Regions
+<br/> <b> Program 143: </b> [Medium] Max Area of Island
