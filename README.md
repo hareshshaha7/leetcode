@@ -192,3 +192,4 @@ Learn competitive programming through [leetcode](https://leetcode.com/)
 <br/> <b> Program 144: </b> [Medium] Remove Duplicates from Sorted Array II
 <br/> <b> Program 145: </b> [Easy] Find the Difference
 <br/> <b> Program 146: </b> [Easy] Single Number
+<br/> <b> Program 147: </b> [Easy] Add Digits
