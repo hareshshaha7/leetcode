@@ -53,8 +53,8 @@ public class Program150 {
         int j = num2.length() - 1;
         int canary = 0;
         while (i >= 0 || j >= 0 || canary == 1) {
-            int n1 = i >= 0 ? (int) (num1.charAt(i) - '0') : 0;
-            int n2 = j >= 0 ? (int) (num2.charAt(j) - '0') : 0;
+            int n1 = i >= 0 ? (num1.charAt(i) - '0') : 0;
+            int n2 = j >= 0 ? (num2.charAt(j) - '0') : 0;
             result.append((n1 + n2 + canary) % 10);
             canary = (n1 + n2 + canary) / 10;
             i--;
