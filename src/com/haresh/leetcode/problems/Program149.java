@@ -64,7 +64,7 @@ public class Program149 {
             int num1 = i >= 0 ? Character.getNumericValue(a.charAt(i)) : 0;
             int num2 = j >= 0 ? Character.getNumericValue(b.charAt(j)) : 0;
             result.append(num1 ^ num2 ^ carry);
-            carry = (num1 + num2 + carry) >= 2 ? 1 : 0;
+            carry = (num1 + num2 + carry) / 2;
             i--;
             j--;
         }
