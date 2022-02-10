@@ -193,3 +193,4 @@ Learn competitive programming through [leetcode](https://leetcode.com/)
 <br/> <b> Program 145: </b> [Easy] Find the Difference
 <br/> <b> Program 146: </b> [Easy] Single Number
 <br/> <b> Program 147: </b> [Easy] Add Digits
+<br/> <b> Program 148: </b> [Easy] Plus One
