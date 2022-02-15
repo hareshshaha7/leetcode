@@ -1,10 +1,10 @@
 package com.haresh.leetcode.problems;
 
 /*
-530. [Easy] Minimum Absolute Difference in BST
-https://leetcode.com/problems/minimum-absolute-difference-in-bst/
+783. [Easy] Minimum Distance Between BST Nodes
+https://leetcode.com/problems/minimum-distance-between-bst-nodes/
 
-Given the root of a Binary Search Tree (BST), return the minimum absolute difference between the values of any two different nodes in the tree.
+Given the root of a Binary Search Tree (BST), return the minimum difference between the values of any two different nodes in the tree.
 
 Example 1:
          4
@@ -25,7 +25,7 @@ Input: root = [1,0,48,null,null,12,49]
 Output: 1
 
 Constraints:
-    The number of nodes in the tree is in the range [2, 104].
+    The number of nodes in the tree is in the range [2, 100].
     0 <= Node.val <= 105
  */
 
@@ -33,7 +33,7 @@ Constraints:
  * @author Haresh Shaha
  * @since 15-Feb-2022
  */
-public class Program155 {
+public class Program156 {
 
     //  Definition for a binary tree node.
     static class TreeNode {
@@ -53,25 +53,24 @@ public class Program155 {
         root.left.left = new TreeNode(1);
         root.left.right = new TreeNode(3);
 
-        int minimumDifference = getMinimumDifference(root);
+        int minimumDifference = minDiffInBST(root);
         System.out.println(minimumDifference);
     }
 
-    static Integer diff = Integer.MAX_VALUE, prev = null;
-
-    public static int getMinimumDifference(TreeNode root) {
+    static Integer res = Integer.MAX_VALUE, pre = null;
+    public static int minDiffInBST(TreeNode root) {
         if (root.left != null) {
-            getMinimumDifference(root.left);
+            minDiffInBST(root.left);
         }
 
-        if (prev != null) {
-            diff = Math.min(diff, root.val - prev);
+        if (pre != null) {
+            res = Math.min(res, root.val - pre);
         }
-        prev = root.val;
 
+        pre = root.val;
         if (root.right != null) {
-            getMinimumDifference(root.right);
+            minDiffInBST(root.right);
         }
-        return diff;
+        return res;
     }
 }
