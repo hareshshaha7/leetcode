@@ -207,3 +207,4 @@ Learn competitive programming through [leetcode](https://leetcode.com/)
 <br/> <b> Program 159: </b> [Medium] Clone Graph
 <br/> <b> Program 160: </b> [Medium] Sort List
 <br/> <b> Program 161: </b> [Medium] Compare Version Numbers
+<br/> <b> Program 162: </b> [Easy] Counting Bits
