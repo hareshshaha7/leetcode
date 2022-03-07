@@ -211,3 +211,4 @@ Learn competitive programming through [leetcode](https://leetcode.com/)
 <br/> <b> Program 163: </b> [Easy] Is Subsequence
 <br/> <b> Program 164: </b> [Medium] Arithmetic Slices
 <br/> <b> Program 165: </b> [Medium] Champagne Tower
+<br/> <b> Program 166: </b> [Medium] Delete and Earn
