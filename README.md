@@ -214,3 +214,4 @@ Learn competitive programming through [leetcode](https://leetcode.com/)
 <br/> <b> Program 166: </b> [Medium] Delete and Earn
 <br/> <b> Program 167: </b> [Medium] Remove Duplicates from Sorted List II
 <br/> <b> Program 168: </b> [Medium] Rotate Array
+<br/> <b> Program 169: </b> [Medium] Minimum Remove to Make Valid Parentheses
