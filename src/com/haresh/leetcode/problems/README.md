@@ -177,3 +177,4 @@ Angle Between Hands of a Clock
 <br/> <b> Program 170: </b> [Medium] Score of Parentheses
 <br/> <b> Program 171: </b> [Medium] Remove Duplicate Letters
 <br/> <b> Program 172: </b> [Medium] Smallest Subsequence of Distinct Characters
+<br/> <b> Program 173: </b> [Medium] Minimum Domino Rotations For Equal Row
