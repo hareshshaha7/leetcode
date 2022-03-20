@@ -175,3 +175,4 @@ Angle Between Hands of a Clock
 <br/> <b> Program 168: </b> [Medium] Rotate Array
 <br/> <b> Program 169: </b> [Medium] Minimum Remove to Make Valid Parentheses
 <br/> <b> Program 170: </b> [Medium] Score of Parentheses
+<br/> <b> Program 171: </b> [Medium] Remove Duplicate Letters
