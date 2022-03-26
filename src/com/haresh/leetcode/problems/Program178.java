@@ -36,6 +36,10 @@ package com.haresh.leetcode.problems;
 import java.util.Arrays;
 import java.util.Comparator;
 
+/**
+ * @author Haresh Shaha
+ * @since 26-Mar-2022
+ */
 public class Program178 {
     public static void main(String[] args) {
         int[][] costs = {{10, 20}, {30, 200}, {400, 50}, {30, 20}};
