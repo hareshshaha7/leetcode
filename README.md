@@ -227,3 +227,4 @@ Learn competitive programming through [leetcode](https://leetcode.com/)
 <br/> <b> Program 179: </b> [Easy] Binary Search
 <br/> <b> Program 180: </b> [Medium] Search in Rotated Sorted Array II
 <br/> <b> Program 181: </b> [Hard] Split Array Largest Sum
+<br/> <b> Program 182: </b> [Easy] The K Weakest Rows in a Matrix
