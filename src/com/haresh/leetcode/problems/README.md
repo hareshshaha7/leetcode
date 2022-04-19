@@ -190,3 +190,4 @@ Angle Between Hands of a Clock
 <br/> <b> Program 183: </b> [Easy] Minimum Cost to Move Chips to The Same Position
 <br/> <b> Program 184: </b> [Medium] Minimum Absolute Sum Difference
 <br/> <b> Program 185: </b> [Easy] Last Stone Weight
+<br/> <b> Program 186: </b> [Easy] Increasing Order Search Tree
